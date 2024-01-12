@@ -16,7 +16,7 @@ def tabela(cara=False):
     if cara:
         print('\033[31mTodos soldados mortos!\nTime Cara vecendor\033[m')
     else:
-        print('\033[32mSoldados avançaram todo o território! \nTime mcoroa vencedor\033[m')
+        print('\033[32mSoldados avançaram todo o território! \nTime coroa vencedor\033[m')
     print('Número de rodadas | Vezes que caiu coroa | Vezes em que caiu cara | Total de gerações')
     print(f'{rodadas:^17} | {coroa:^20} | {cara:^22} | {soldado:^18}')
 
